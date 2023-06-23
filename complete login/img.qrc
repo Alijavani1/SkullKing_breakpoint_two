@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/new/prefix1"/>
+    <qresource prefix="/">
+        <file>0b630b5c1661bedebafff0680d6d1876.jpg</file>
+        <file>5947114fd9b1f751753920dbebc69c55.jpg</file>
+        <file>IMG_20230603_114827_447.jpg</file>
+        <file>IMG_20230603_114912_197.jpg</file>
+        <file>IMG_20230603_114920_280.jpg</file>
+        <file>board.png</file>
+        <file>logo.png</file>
+        <file>name.png</file>
+        <file>parrot.png</file>
+        <file>queen.png</file>
+        <file>treasure.png</file>
+        <file>king skull.png</file>
+        <file>bcb997132bda61743bdc862cf557419d.gif</file>
+    </qresource>
+</RCC>
