@@ -14,4 +14,4 @@ Project is created with:
 * Amazing UI
 * Multi-Player(Using socket)
 ## Screenshots
-![Alt text]("D:\boardUi.png" "Optional title")
+![Alt text]("boardUi.png" "Optional title")
