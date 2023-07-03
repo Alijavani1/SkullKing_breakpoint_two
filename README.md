@@ -14,4 +14,4 @@ Project is created with:
 * Amazing UI
 * Multi-Player(Using socket)
 ## Screenshots
-![Alt text](Completing the game timer section and putting the stop and exit button/UserProfile.png "Optional title")
+![Alt text](/UserProfile.png "Optional title")
