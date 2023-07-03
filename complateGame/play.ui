@@ -1,0 +1,1753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>play</class>
+ <widget class="QMainWindow" name="play">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1200</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1200</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1200</width>
+      <height>800</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/backboard.jpg);
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cardButton_14">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>609</y>
+      <width>121</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/parrot.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cardButton_12">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>610</y>
+      <width>121</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/parrot.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cardButton_10">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>610</y>
+      <width>121</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/parrot.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cardButton_8">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>610</y>
+      <width>121</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/parrot.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cardButton_6">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>610</y>
+      <width>121</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/parrot.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cardButton_4">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>610</y>
+      <width>121</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/parrot.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cardButton_2">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>610</y>
+      <width>121</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/parrot.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cardButton_1">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>610</y>
+      <width>121</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/parrot.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cardButton_3">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>610</y>
+      <width>121</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/parrot.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cardButton_5">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>610</y>
+      <width>121</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/parrot.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cardButton_7">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>610</y>
+      <width>121</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/parrot.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cardButton_9">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>610</y>
+      <width>121</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/parrot.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cardButton_11">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>610</y>
+      <width>121</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/parrot.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cardButton_13">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>610</y>
+      <width>121</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/parrot.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cardlabel_14">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>-30</y>
+      <width>151</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/queen.png);
+border-image: url(:/labelCard.png);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cardlabel_12">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>-30</y>
+      <width>151</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/queen.png);
+border-image: url(:/labelCard.png);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cardlabel_10">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>-30</y>
+      <width>151</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/queen.png);
+border-image: url(:/labelCard.png);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cardlabel_8">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>-30</y>
+      <width>151</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/queen.png);
+border-image: url(:/labelCard.png);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cardlabel_6">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>-30</y>
+      <width>151</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/queen.png);
+border-image: url(:/labelCard.png);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cardlabel_4">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>-30</y>
+      <width>151</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/queen.png);
+border-image: url(:/labelCard.png);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cardlabel_2">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>-30</y>
+      <width>151</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/queen.png);
+border-image: url(:/labelCard.png);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cardlabel_1">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>-30</y>
+      <width>151</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/queen.png);
+border-image: url(:/labelCard.png);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cardlabel_3">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>-30</y>
+      <width>151</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/queen.png);
+border-image: url(:/labelCard.png);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cardlabel_5">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>-30</y>
+      <width>151</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/queen.png);
+border-image: url(:/labelCard.png);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cardlabel_7">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>-30</y>
+      <width>151</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/queen.png);
+border-image: url(:/labelCard.png);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cardlabel_9">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>-30</y>
+      <width>151</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/queen.png);
+border-image: url(:/labelCard.png);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cardlabel_11">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>-30</y>
+      <width>151</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/queen.png);
+border-image: url(:/labelCard.png);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cardlabel_13">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>-30</y>
+      <width>151</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/queen.png);
+border-image: url(:/labelCard.png);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wincardlabel_1">
+    <property name="geometry">
+     <rect>
+      <x>282</x>
+      <y>510</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wincardlabel_2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>530</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wincardlabel_3">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>510</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wincardlabel_4">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>530</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wincardlabel_5">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>510</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wincardlabel_6">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>530</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wincardlabel_7">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>510</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wincardlabel_8">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>530</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wincardlabel_9">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>510</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wincardlabel_10">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>530</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wincardlabel_11">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>510</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wincardlabel_12">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>530</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wincardlabel_13">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>510</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wincardlabel_14">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>530</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="losecardlardlabel_1">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>180</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="losecardlardlabel_2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>200</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="losecardlardlabel_3">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>180</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="losecardlardlabel_4">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>200</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="losecardlardlabel_5">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>180</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="losecardlardlabel_6">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>200</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="losecardlardlabel_7">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>180</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="losecardlardlabel_8">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>200</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="losecardlardlabel_9">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>180</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="losecardlardlabel_10">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>200</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="losecardlardlabel_11">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>180</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="losecardlardlabel_12">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>200</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="losecardlardlabel_13">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>180</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="losecardlardlabel_14">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>200</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/labelCard_land.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="played_label_1">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>330</y>
+      <width>101</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/skull-2.jpg)
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="played_label_2">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>260</y>
+      <width>101</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/parrot.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="usernameLabel">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>110</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 350 14pt &quot;Segoe UI Variable Text Semiligh&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>20</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/profile_cartoon.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mypoint_label">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>640</y>
+      <width>91</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 16pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>620</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/star.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="pointlabel_2">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>710</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 16pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>1030</x>
+      <y>700</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/star.png);
+border-image: url(:/starLose.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_predicet">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>340</y>
+      <width>271</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #FAC898;
+border-radius:5px;
+padding-left:8px;
+border-radius:8px;
+color:rgba(0,0,0,0.7);
+font-size:17px;
+font: 700 9pt &quot;Segoe Print&quot;;</string>
+    </property>
+    <property name="placeholderText">
+     <string>How many laps can you take?</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_play">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>400</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+font: 700 10pt &quot;B Titr&quot;;
+border-radius:20px;
+color:#fff;
+font: 10pt &quot;MS Reference Sans Serif&quot;;
+background-color:#FFAA33;
+}
+QPushButton:hover{
+background-color:#F08000;
+}</string>
+    </property>
+    <property name="text">
+     <string>Play</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_start">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>320</y>
+      <width>211</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+font: 700 10pt &quot;B Titr&quot;;
+border-radius:50px;
+color:#fff;
+font: 15pt &quot;MS Reference Sans Serif&quot;;
+background-color:#2E8B57;
+}
+QPushButton:hover{
+background-color:#3CB371;
+}</string>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_randcard">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>460</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+font: 700 10pt &quot;B Titr&quot;;
+border-radius:20px;
+color:#fff;
+font: 10pt &quot;MS Reference Sans Serif&quot;;
+background-color:#FF7F50;;
+}
+QPushButton:hover{
+background-color:#F88379;
+}</string>
+    </property>
+    <property name="text">
+     <string>random card</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="time_label">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>330</y>
+      <width>101</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:40px;
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.509808, fy:0.506, stop:0.543269 rgba(30, 144, 255, 255), stop:0.990385 rgba(62, 78, 228, 255));
+color:#000;
+font: 700 12pt &quot;Sitka Small&quot;;
+border-color:#fff;</string>
+    </property>
+    <property name="text">
+     <string>0s</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="close_button">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>20</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/exit_btn.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stop_button">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>20</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/stop_btn.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wood_label">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>140</y>
+      <width>491</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/wood_lbl.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Resume_button">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>480</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+font: 700 14pt &quot;B Titr&quot;;
+border-radius:20px;
+font: 10pt &quot;MS Reference Sans Serif&quot;;
+background-color:#FF7F50;;
+}
+QPushButton:hover{
+background-color:#F88379;
+}</string>
+    </property>
+    <property name="text">
+     <string>RESUME</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="close_button_2">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>480</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+font: 700 12pt &quot;B Titr&quot;;
+border-radius:20px;
+font: 10pt &quot;MS Reference Sans Serif&quot;;
+background-color:#FF7F50;;
+}
+QPushButton:hover{
+background-color:#F88379;
+}</string>
+    </property>
+    <property name="text">
+     <string>EXITE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>340</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(105,105,105,0.3);
+border-radius:5px;
+padding-left:8px;
+border-radius:8px;
+color:rgba(0,0,0,0.7);
+font-size:17px;
+font: 700 9pt &quot;Segoe Print&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Play game after:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="win_Label">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>290</y>
+      <width>291</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/winlabel.png);
+border-image: url(:/loseLabel.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="timeResume_lbl">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>340</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(105,105,105,0.1);
+font: 700 9pt &quot;Segoe Print&quot;;
+border-radius:5px;
+padding-left:8px;
+border-radius:8px;
+color:rgba(0,0,0,0.7);
+font-size:17px;
+</string>
+    </property>
+    <property name="text">
+     <string>0s</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="coin_label">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>400</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+border-image: url(:/coin.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="addcoin_label">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>410</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25pt &quot;Snap ITC&quot;;</string>
+    </property>
+    <property name="text">
+     <string>+100</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error_label">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>390</y>
+      <width>301</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/stonlbl.png);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error_label_2">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>410</y>
+      <width>181</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 9pt &quot;Showcard Gothic&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>It is not your turn!</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="error_btn">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>404</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/exit_btn.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="chat_button">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>740</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+font: 700 10pt &quot;B Titr&quot;;
+border-radius:10px;
+color:#fff;
+font: 10pt &quot;MS Reference Sans Serif&quot;;
+background-color:#FFAA33;
+}
+QPushButton:hover{
+background-color:#F08000;}</string>
+    </property>
+    <property name="text">
+     <string>send sticker</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_image">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>300</y>
+      <width>211</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:15px;
+background-color: rgba(105,105,105,0.3);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="frame_stiker">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>520</y>
+      <width>211</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:15px;
+background-color: rgba(105,105,105,0.3);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stickerButton_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>530</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/sticker2.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stickerButton_1">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>620</y>
+      <width>71</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/sticker1.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stickerButton_3">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>530</y>
+      <width>71</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/sticker3.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stickerButton_4">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>630</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/sticker4.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>cardButton_14</zorder>
+   <zorder>cardButton_12</zorder>
+   <zorder>cardButton_10</zorder>
+   <zorder>cardButton_8</zorder>
+   <zorder>cardButton_6</zorder>
+   <zorder>cardButton_4</zorder>
+   <zorder>cardButton_2</zorder>
+   <zorder>cardButton_1</zorder>
+   <zorder>cardButton_3</zorder>
+   <zorder>cardButton_5</zorder>
+   <zorder>cardButton_7</zorder>
+   <zorder>cardButton_9</zorder>
+   <zorder>cardButton_11</zorder>
+   <zorder>cardButton_13</zorder>
+   <zorder>cardlabel_14</zorder>
+   <zorder>cardlabel_12</zorder>
+   <zorder>cardlabel_10</zorder>
+   <zorder>cardlabel_8</zorder>
+   <zorder>cardlabel_6</zorder>
+   <zorder>cardlabel_4</zorder>
+   <zorder>cardlabel_2</zorder>
+   <zorder>cardlabel_1</zorder>
+   <zorder>cardlabel_3</zorder>
+   <zorder>cardlabel_5</zorder>
+   <zorder>cardlabel_7</zorder>
+   <zorder>cardlabel_9</zorder>
+   <zorder>cardlabel_11</zorder>
+   <zorder>cardlabel_13</zorder>
+   <zorder>wincardlabel_1</zorder>
+   <zorder>wincardlabel_2</zorder>
+   <zorder>wincardlabel_3</zorder>
+   <zorder>wincardlabel_4</zorder>
+   <zorder>wincardlabel_5</zorder>
+   <zorder>wincardlabel_6</zorder>
+   <zorder>wincardlabel_7</zorder>
+   <zorder>wincardlabel_8</zorder>
+   <zorder>wincardlabel_9</zorder>
+   <zorder>wincardlabel_10</zorder>
+   <zorder>wincardlabel_11</zorder>
+   <zorder>wincardlabel_12</zorder>
+   <zorder>wincardlabel_13</zorder>
+   <zorder>wincardlabel_14</zorder>
+   <zorder>losecardlardlabel_1</zorder>
+   <zorder>losecardlardlabel_2</zorder>
+   <zorder>losecardlardlabel_3</zorder>
+   <zorder>losecardlardlabel_4</zorder>
+   <zorder>losecardlardlabel_5</zorder>
+   <zorder>losecardlardlabel_6</zorder>
+   <zorder>losecardlardlabel_7</zorder>
+   <zorder>losecardlardlabel_8</zorder>
+   <zorder>losecardlardlabel_9</zorder>
+   <zorder>losecardlardlabel_10</zorder>
+   <zorder>losecardlardlabel_11</zorder>
+   <zorder>losecardlardlabel_12</zorder>
+   <zorder>losecardlardlabel_13</zorder>
+   <zorder>losecardlardlabel_14</zorder>
+   <zorder>played_label_1</zorder>
+   <zorder>played_label_2</zorder>
+   <zorder>usernameLabel</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_2</zorder>
+   <zorder>mypoint_label</zorder>
+   <zorder>label_5</zorder>
+   <zorder>lineEdit_predicet</zorder>
+   <zorder>pushButton_play</zorder>
+   <zorder>pushButton_start</zorder>
+   <zorder>pushButton_randcard</zorder>
+   <zorder>time_label</zorder>
+   <zorder>pointlabel_2</zorder>
+   <zorder>close_button</zorder>
+   <zorder>stop_button</zorder>
+   <zorder>wood_label</zorder>
+   <zorder>Resume_button</zorder>
+   <zorder>close_button_2</zorder>
+   <zorder>win_Label</zorder>
+   <zorder>coin_label</zorder>
+   <zorder>addcoin_label</zorder>
+   <zorder>error_label</zorder>
+   <zorder>error_label_2</zorder>
+   <zorder>error_btn</zorder>
+   <zorder>label_6</zorder>
+   <zorder>timeResume_lbl</zorder>
+   <zorder>chat_button</zorder>
+   <zorder>label_image</zorder>
+   <zorder>frame_stiker</zorder>
+   <zorder>stickerButton_2</zorder>
+   <zorder>stickerButton_1</zorder>
+   <zorder>stickerButton_4</zorder>
+   <zorder>stickerButton_3</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
